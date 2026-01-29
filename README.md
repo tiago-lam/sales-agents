@@ -30,4 +30,18 @@ The `docker_run.sh` file is a wrapper for the `docker run` command. It contains 
 
 Therefore, if you want to see how the agent responds to other queries, you just need to change the `query` value and run the command `sh ./docker_run.sh` again.
 
+## Main Technologies
+#### OS
+- Ubuntu:22.04 (emulated from Docker)
+
+#### Programming Language
+- Python 3.10 (or superior)
+
+#### Frameworks/Libraries
+- Langchain
+- Langchain Google Genai 
+- Pandas
+
+A full list of frameworks/libraries and their dependencies can be checked on the `requirements.txt` file
+
 
