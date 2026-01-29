@@ -1,7 +1,7 @@
 docker run --rm --env-file .env sales-agent \
     --verbose False \
     --max_output_tokens 2048 \
-    --query "What is the impact of promotions in the price and selling volume?"
+    --query "Which product sold the most?"
 
 # "Which product sold the most?" √
 # "Which location had the highest sales volume?" √
