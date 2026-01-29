@@ -1,0 +1,12 @@
+# Ignore the virtual environment folder
+venv/
+.venv/
+
+# Ignore cached python files
+__pycache__/
+
+# Ignore pdf files
+.pdf
+
+# IMPORTANT: Ignore your secrets file to keep the image secure
+# .env
